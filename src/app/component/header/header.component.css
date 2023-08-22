@@ -1,0 +1,67 @@
+* {
+    color: #000;
+    font-size: 16px;
+    font-family: favorit, Helvetica, sans-serif;
+}
+
+.main {
+    max-width: 100%;
+    width: 100%;
+}
+
+.gutter {
+    width: 100%;
+    margin: 0;
+    background-color: #000;
+    display: inline-block;
+}
+
+.message {
+    display: block;
+}
+
+.dealer {
+    display: inline-block;
+    
+}
+
+.dealer a, .dealer span {
+    color: #fff;
+}
+
+.bg-video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.menu-dropdown {
+    display: inline-block;
+}
+
+.menu-dropdown a {
+    text-decoration: none;
+
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+}
+
+.nav-panel {
+    background-color: #fff;
+}
+
+.menu-dropdown:hover .dropdown {
+    display: block;
+}

@@ -1,12 +1,21 @@
 * {
+    margin: 0;
+    padding: 0;
     color: #000;
     font-size: 16px;
-    font-family: favorit, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 .main {
+    height: 100vh;
     max-width: 100%;
     width: 100%;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .gutter {
@@ -21,7 +30,9 @@
 }
 
 .dealer {
-    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px;
     
 }
 
@@ -29,10 +40,24 @@
     color: #fff;
 }
 
+.location {
+    display: block;
+}
+
+.language {
+    display: block;
+}
+
+.header-main:hover {
+    background-color: #fff;
+}
+
 .bg-video {
     position: absolute;
     width: 100%;
     height: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 nav {
@@ -46,6 +71,8 @@ ul {
 
 .menu-dropdown {
     display: inline-block;
+    position: relative;
+    margin: 5px;
 }
 
 .menu-dropdown a {
@@ -56,12 +83,19 @@ ul {
 .dropdown {
     display: none;
     position: absolute;
+    background-color: #fff;
+    max-width: 100%;
+    padding: 30px;
+    z-index: 1;
 }
 
 .nav-panel {
     background-color: #fff;
 }
 
+
 .menu-dropdown:hover .dropdown {
     display: block;
+    
 }
+
